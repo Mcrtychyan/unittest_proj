@@ -17,3 +17,4 @@ def test_empty_dict_custom_default():
 def test_non_existing_key_default_param():
     data = {}
     assert get_val(data, "vcs") == "git"
+#я
